@@ -1,3 +1,9 @@
+
+/*
+    Written by Farhd Asadi
+    First In First Out Page Replacement Algorithm
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
