@@ -22,7 +22,7 @@ Example execution:
  ./fifo 4 256 mp3d.mem
 ```
 Output:
-``sh
+```sh
 No physical pages = 4, page size = 256
 Reading memory trace from mp3d.mem... Read 100000 memory references
 Result: 11940 page faults
