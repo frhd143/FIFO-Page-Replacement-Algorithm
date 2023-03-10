@@ -4,8 +4,12 @@ This is an implementation of the First In First Out (FIFO) page replacement algo
 ## Overview
 This is a C program that implements the First In First Out (FIFO) page replacement algorithm. The program reads a file containing a list of memory references, and simulates how the memory management system would operate with a given number of physical pages and page size.
 
+
+
+## Usage
 The program calculates the number of page faults for a sequence of memory references (i.e., the
 memory reference trace in the .mem-files) when using the FIFO (First-In-First-Out) page replacement policy.
+
 The program takes the number of physical pages, the page size, and the name of the trace file:
 ```sh
 ./fifo no_phys_pages page_size filename
@@ -21,5 +25,12 @@ Reading memory trace from mp3d.mem... Read 100000 memory references
 Result: 11940 page faults
 ```
 
-## Usage
-To use this program, you need to provide three arguments: the number of physical pages, the page size, and the name of the file containing the memory references. For example:
+
+
+
+## Contributing
+Contributions to this project are welcome. If you find a bug or want to suggest an improvement, please open an issue or submit a pull request.
+Or email me here: f.asadi2002@gmail.com
+
+## License
+This code is released under the MIT License.
