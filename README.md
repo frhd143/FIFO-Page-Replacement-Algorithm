@@ -1,4 +1,7 @@
 # First In First Out Page Replacement Algorithm - FIFO
+This is an implementation of the First In First Out (FIFO) page replacement algorithm.
+
+## Overview
 This is a C program that implements the First In First Out (FIFO) page replacement algorithm. The program reads a file containing a list of memory references, and simulates how the memory management system would operate with a given number of physical pages and page size.
 
 ## Usage
