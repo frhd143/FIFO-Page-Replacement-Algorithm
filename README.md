@@ -19,7 +19,7 @@ The program then returns the resulting number of page faults for that specific c
 for either mp3d.mem or mult.mem.
 Example execution:
 ```sh
-mycomputer$ ./fifo 4 256 mp3d.mem
+ ./fifo 4 256 mp3d.mem
 No physical pages = 4, page size = 256
 Reading memory trace from mp3d.mem... Read 100000 memory references
 Result: 11940 page faults
