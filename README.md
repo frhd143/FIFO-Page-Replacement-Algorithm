@@ -20,6 +20,9 @@ for either mp3d.mem or mult.mem.
 Example execution:
 ```sh
  ./fifo 4 256 mp3d.mem
+```
+Output:
+``sh
 No physical pages = 4, page size = 256
 Reading memory trace from mp3d.mem... Read 100000 memory references
 Result: 11940 page faults
